@@ -46,9 +46,9 @@ namespace Anoda_Disasta
                     graphics.DrawString(secondText, arialFont, Brushes.Black, rectF2);
                 }
             }
-            bitmap.Save(@"C:\Users\Me\Pictures\drakewt.png", System.Drawing.Imaging.ImageFormat.Png);
+            bitmap.Save(@"C:\Users\Me\Pictures\drakewt.png", System.Drawing.Imaging.ImageFormat.Png); //Put the place to save the image to here.
 
-            await Context.Channel.SendFileAsync(@"C:\Users\Me\Pictures\drakewt.png"); //Put the place you want the edited image to save to here
+            await Context.Channel.SendFileAsync(@"C:\Users\Me\Pictures\drakewt.png"); //Put the place you saved the edited image to here.
         }
     }
 }
